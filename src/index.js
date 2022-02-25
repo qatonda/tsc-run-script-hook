@@ -27,7 +27,7 @@ function runScript(name, path)
   let pathArg = path ? ` -C ${path}` : '';
   let cmd = `npm${pathArg} run "${name}"`;
 
-  console.log(`[tsc-run-script-hook] $ ${cmd}`)
+  console.log(`[tsc-run-scripts-hook] $ ${cmd}`)
   console.log(execSync(cmd).toString());
 }
 
