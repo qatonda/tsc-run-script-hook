@@ -31,7 +31,7 @@ function runScript(name, path)
   console.log(execSync(cmd).toString());
 }
 
-let projectRoot = path.resolve(__dirname, '..', '..', '..');
+let projectRoot = path.resolve(__dirname, '..', '..', '..', '..');
 let tsconfigPath = path.resolve(projectRoot, 'tsconfig.json');
 if (fs.existsSync(tsconfigPath))
 {
