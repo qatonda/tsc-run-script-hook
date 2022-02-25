@@ -1,5 +1,5 @@
 {
-  "name": "tsc-run-script-hook",
+  "name": "@qatonda/tsc-run-script-hook",
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
