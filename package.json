@@ -19,5 +19,8 @@
   "homepage": "https://github.com/qatonda/tsc-run-scripts-hook#readme",
   "dependencies": {
     "json5": "^2.2.0"
+  },
+  "peerDependencies": {
+    "typescript": "x"
   }
 }
